@@ -1,0 +1,8 @@
+{
+	"font":{      
+		"family"   : "Consolas",
+		"size"     : 10,
+		"position" : [350, 350 ],
+        "color" : -1
+    }
+}

@@ -1,0 +1,1 @@
+Displays the current treasure pool on the screen. Will show estimated time for drop and who has the winning lot.

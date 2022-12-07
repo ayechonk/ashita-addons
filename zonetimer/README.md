@@ -1,0 +1,1 @@
+Displays a simple timer for how long you've been in the current zone.
