@@ -1,0 +1,1 @@
+When in Port Jeuno, if you have a Comso Cleanse, "Don't Drop The Soap" will be in green. If you do not have a Cosmo Cleanse, "Don't Drop The Soap" will be in red.
