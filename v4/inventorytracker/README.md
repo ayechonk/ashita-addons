@@ -1,0 +1,1 @@
+Displays the curent number of items in your inventory.
