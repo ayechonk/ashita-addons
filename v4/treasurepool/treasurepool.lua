@@ -1,3 +1,5 @@
+-- Thanks to Thorny and ShiyoKozuki for the help on converting to Ashita V4
+
 addon.name = 'TreasurePool'
 addon.author = 'ayechonk'
 addon.version = '1.0'
