@@ -1,0 +1,12 @@
+{
+    "background": {
+        "color": -2147483648,
+        "visible": true
+    },
+    "font": {
+        "color": -1,
+        "family": "Consolas",
+        "position": [ 600, 1062 ],
+        "size": 11
+    }
+}
