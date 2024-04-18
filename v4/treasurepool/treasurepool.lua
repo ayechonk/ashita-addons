@@ -39,24 +39,23 @@ ashita.events.register("load", "load_callback1", function()
 	f:GetBackground():SetColor(tp_config.background.color);
 end);
 
-ashita.events.register('command', 'command_cb', function(e)
-	local args = e.command:args()
-	if (args == nil) then
-		return false;
-	end
-	if (args[1]:lower() == '/test') then
-
-		local inventory = AshitaCore:GetMemoryManager():GetInventory()
-		print(inventory:GetTreasurePoolItemCount())
-		local titem = inventory:GetTreasurePoolItem(0);
-		local pool = getTreasurePool()
-		if (titem ~= nil) then
-			print(titem.ItemId)
-		end
-		return true;
-	end
-	return false
-end);
+-- ashita.events.register('command', 'command_cb', function(e)
+-- 	local args = e.command:args()
+-- 	if (args == nil) then
+-- 		return false;
+-- 	end
+-- 	if (args[1]:lower() == '/test') then
+-- 		local inventory = AshitaCore:GetMemoryManager():GetInventory()
+-- 		print(inventory:GetTreasurePoolItemCount())
+-- 		local titem = inventory:GetTreasurePoolItem(0);
+-- 		local pool = getTreasurePool()
+-- 		if (titem ~= nil) then
+-- 			print(titem.ItemId)
+-- 		end
+-- 		return true;
+-- 	end
+-- 	return false
+-- end);
 
 ashita.events.register("d3d_present", "present_cb", function()
 	local t = T {}
