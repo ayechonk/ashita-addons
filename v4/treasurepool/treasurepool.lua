@@ -2,7 +2,7 @@
 
 addon.name = 'TreasurePool'
 addon.author = 'ayechonk'
-addon.version = '1.0'
+addon.version = '1.1'
 
 require 'common'
 local imgui = require("imgui");
